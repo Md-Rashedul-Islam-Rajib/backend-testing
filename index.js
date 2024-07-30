@@ -9,6 +9,6 @@ app.get('/',  async (req, res) => {
     res.send('Hello World')
 })
 
-app.listen(port, async( ) => {
+app.listen(process.env.PORT, async( ) => {
     console.log(`server running on ${port}`)
 })
