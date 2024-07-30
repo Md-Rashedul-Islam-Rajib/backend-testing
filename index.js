@@ -1,6 +1,6 @@
 const express = require('express');
 require('dotenv').config();
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 // middleware
 const app = express();
