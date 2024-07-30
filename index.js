@@ -7,3 +7,7 @@ const app = express();
 app.get('/',  async (req, res) => {
     res.send('Hello World')
 })
+
+app.listen(port, async( ) => {
+    console.log(`server running on ${port}`)
+})
